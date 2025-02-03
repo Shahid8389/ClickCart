@@ -51,7 +51,7 @@ ClickCart is a full-stack e-commerce web application built with the MERN stack (
 ### **1️⃣ Clone the Repository**
 ```bash
 # Clone the repository
-git clone https://github.com/Shahid8389/clickcart.git
+git clone https://github.com/Shahid8389/ClickCart.git
 
 # Navigate to the project directory
 cd ClickCart
