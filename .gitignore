@@ -24,5 +24,3 @@ yarn.lock
 pnpm-lock.yaml
 
 # Environment variables
-.env
-.env.*

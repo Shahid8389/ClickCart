@@ -15,7 +15,6 @@ import p_img11 from './p_img11.png'
 import p_img12 from './p_img12.png'
 
 
-import logo from './logo.png'
 import hero_img2 from './hero_img2.jpg'
 import hero_img3 from './hero_img3.jpg'
 import cart_icon from './cart_icon.png'
@@ -36,7 +35,6 @@ import stripe_logo from './stripe_logo.png'
 import cross_icon from './cross_icon.png'
 
 export const assets = {
-    logo,
     hero_img2,
     hero_img3,
     cart_icon,
