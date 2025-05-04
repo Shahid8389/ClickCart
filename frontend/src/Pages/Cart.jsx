@@ -90,7 +90,7 @@ const Cart = () => {
 
                 <div className='flex items-center justify-between px-1'>
                   {/* Update the quantity - increase or decrease it */}
-                  <input className='border border-slate-700 rounded-sm w-12 pl-1 text-sm' type="number" defaultValue={item.quantity} min={1} onChange={(e) => e.target.value === '' || e.target.value === '0' ? null : updateQuantity(item._id, item.size, Number(e.target.value))} />
+                  <input className='border border-slate-700 rounded-sm w-12 pl-1 text-sm' type="number" defaultValue={item.quantity} min={1} max={99} onChange={(e) => e.target.value === '' || e.target.value === '0' ? null : updateQuantity(item._id, item.size, Number(e.target.value))} />
 
                   {/* Update the quantity - delete the cart data */}
                   <img className='w-5 cursor-pointer md:mr-7 mr-2' src={assets.bin_icon} onClick={() => updateQuantity(item._id, item.size, 0)} alt="" />
